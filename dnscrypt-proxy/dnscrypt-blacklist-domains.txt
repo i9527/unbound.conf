@@ -40,7 +40,7 @@ advertiser.*
 advertising.*
 adverts.*
 adx.*
-analytics
+analytics.*
 banner.*
 banners.*
 creatives.*
