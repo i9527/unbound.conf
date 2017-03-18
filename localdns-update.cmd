@@ -4,7 +4,7 @@ C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.
 C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.conf/raw/master/unbound/unbound.local-zone.blacklist.domains.conf --directory-prefix="C:\localdns\unbound"
 C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.conf/raw/master/unbound/unbound.local-zone.hosts.conf --directory-prefix="C:\localdns\unbound"
 C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.conf/raw/master/unbound/unbound.forward-zone.China.conf --directory-prefix="C:\localdns\unbound"
-C:\localdns\wget.exe -N ftp://ftp.internic.net/domain/named.cache --directory-prefix="C:\localdns\unbound"
+C:\localdns\wget.exe -N --no-check-certificate https://www.internic.net/domain/named.cache --directory-prefix="C:\localdns\unbound"
 
 C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.conf/raw/master/dnscrypt-proxy/dnscrypt-proxy-cisco.conf --directory-prefix="C:\localdns\dnscrypt-proxy"
 C:\localdns\wget.exe -N --no-check-certificate https://github.com/CNMan/unbound.conf/raw/master/dnscrypt-proxy/dnscrypt-proxy-yandex.conf --directory-prefix="C:\localdns\dnscrypt-proxy"
